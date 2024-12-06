@@ -9,15 +9,15 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            <a href="https://www.facebook.com/munir.hossain.524373" className="bannerIcon">
               <FaFacebookF />
-            </span>
+            </a>
             <span className="bannerIcon">
               <FaTwitter />
             </span>
-            <span className="bannerIcon">
+            <a href="https://www.linkedin.com/in/munir-hossin-02819a330/" className="bannerIcon">
               <FaLinkedinIn />
-            </span>
+            </a>
           </div>
         </div>
         <div>

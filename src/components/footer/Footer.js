@@ -1,22 +1,33 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+// import {logo} from "../../assets/index"
 
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        {/* <img className="w-32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Eo_circle_pink_letter-m.svg/768px-Eo_circle_pink_letter-m.svg.png?20200417164146" alt="logo" /> */}
+        <svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
+          <circle r="45" cx="50" cy="50" fill="black" stroke="red" stroke-width="3" />
+        </svg>
+        {/* <img className="w-32" src={logo} alt="logo" /> */}
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          {/* <span className="bannerIcon">
             <FaFacebookF />
-          </span>
+          </span> */}
+           <a href="https://www.facebook.com/munir.hossain.524373" className="bannerIcon">
+              <FaFacebookF />
+            </a>
+
           <span className="bannerIcon">
             <FaTwitter />
           </span>
-          <span className="bannerIcon">
+          {/* <span className="bannerIcon">
             <FaLinkedinIn />
-          </span>
+          </span> */}
+            <a href="https://www.linkedin.com/in/munir-hossin-02819a330/" className="bannerIcon">
+              <FaLinkedinIn />
+            </a>
         </div>
       </div>
       <div className="w-full h-full">

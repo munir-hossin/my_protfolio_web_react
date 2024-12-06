@@ -4,6 +4,12 @@ export const navLinksdata = [
     title: "Home",
     link: "home",
   },
+  // about
+  {
+    _id: 10011,
+    title: "About",
+    link: "about",
+  },
   {
     _id: 1002,
     title: "Features",

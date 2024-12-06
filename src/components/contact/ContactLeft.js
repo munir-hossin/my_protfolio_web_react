@@ -11,19 +11,19 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Munirul Islam</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+        Front-end Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
           ipsam autem cumque, accusantium dicta odio.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+88 01734651729</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <a href="hm.munirul.islam2222@gmail.com" className="text-lightText">hm.munirul.islam2222@gmail.com</a>
         </p>
       </div>
       <div className="flex flex-col gap-4">

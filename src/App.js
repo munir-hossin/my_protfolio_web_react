@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
+        <About />
         <Features />
         <Projects />
         <Resume />
